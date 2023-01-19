@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
                             if not status then
 							local luck = math.random(1,8)
 								if luck == 4 then
-								ESX.ShowNotification(FoundSomethingText)
+								ESX.ShowNotification(Config.FoundSomethingText)
                                 propsUsabled[props[i]] = true
 								CreateThread(function()
                                    local prop = props[i]
